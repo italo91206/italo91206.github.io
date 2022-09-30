@@ -1,0 +1,135 @@
+:root {
+    --primary: #263250;
+    --secondary: #564440;
+    
+    --primary-supplement: #85d0ce;
+    --secondary-supplement: #af633f;
+    
+    --primary-from: #19454b;
+    --secondary-from: #85d0ce;
+
+    --primary-family-font: 'Mulish', sans-serif;
+    --secondary-family-font: 'Nunito', sans-serif;
+    --tertiary-family-font: 'Inter', sans-serif;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h2-primary{
+    font-family: var(--primary-family-font), consolas;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 40px;
+    color: var(--primary);
+}
+
+.product-card {
+    width: 228px;
+    height: 332px;
+}
+
+.product-card img {
+    margin: 0 auto;
+}
+
+.product-card--title {
+    font-family: var(--primary-family-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--primary);
+    width: 190px;
+    margin: 0 auto 3px;
+}
+
+.product-card--bottom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 190px;
+    margin: 7px auto 0;
+}
+
+.product-card--bottom .price {
+    font-family: var(--primary-family-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--primary);
+}
+
+.product-card--bottom .old-price {
+    font-family: var(--tertiary-family-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    text-decoration: line-through;
+    color: var(--primary);
+    margin-left: 13px;
+}
+
+.product-card--bottom button {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background: #63D384;
+    margin-left: 76px;
+}
+
+.product-card--rating {
+    display: flex;
+    margin: 0 auto auto 19px;
+    width: 146px;
+}
+
+.product-card .comments {
+    font-family: var(--primary-family-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-left: 5px;
+}
+
+.hero--cta {
+    position: absolute;
+    width: 245px;
+    height: 245px;
+    border-radius: 100%;
+    background: rgb(255 255 255 / 60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 375px;
+    top: 24px;
+}
+
+.hero--cta span {
+    font-family: var(--secondary-family-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    color: var(--primary) !important
+}
+
+#hero-bg {
+    margin-bottom: 47px;
+    background: url("./assets/hero-banner.webp");
+    height: 443px;
+    background-repeat: round;
+}
+
+.product-listing {
+    margin-top: 32px;
+}
