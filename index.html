@@ -10,7 +10,18 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;700&display=swap&family=Nunito:wght@700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;700&display=swap&family=Nunito:wght@700;400" rel="stylesheet">
+  <script>
+    // tailwind.config = {
+    //   theme: {
+    //     extend: {
+    //       maxWidth: {
+    //         '8xl': '90em',
+    //       },
+    //     }
+    //   }
+    // }
+  </script>
 </head>
 
 <body>
@@ -20,7 +31,7 @@
 
   <main>
     <section id="hero-bg">
-      <div class="container mx-auto">
+      <div class="container mx-auto max-w-8xl">
         <a href=""class="hero--cta">
           <span>
             Doe nú je inkopen voor Ramadan
@@ -29,7 +40,7 @@
       </div>
     </section>
 
-    <section class="container mx-auto">
+    <section class="container mx-auto max-w-8xl">
       <h2 class="text-center h2-primary">Aanbiedingen van deze maand</h2>
       <div class="row flex flex-wrap product-listing">
         <div class="col-2">
@@ -261,47 +272,415 @@
     </section>
 
     <section id="categories-separator">
-      <div class="container mx-auto">
+      <div class="container mx-auto max-w-8xl">
         <h2 class="text-center">Meest bezochte categorieën</h2>
         
         <div class="row flex">
           <div class="col-3">
-            <article class="category-card">
-              <img src="/assets/ramadan.png" alt="">
-              <span>Ramadan</span>
-            </article>
+            <a href="">
+              <article class="category-card">
+                <img src="/assets/ramadan.png" alt="">
+                <span>Ramadan</span>
+              </article>
+            </a>
           </div>
           <div class="col-3">
-            <article class="category-card">
-              <img src="/assets/huwelijk.png" alt="">
-              <span>Huwelijk</span>
-            </article>
+            <a href="">
+              <article class="category-card">
+                <img src="/assets/huwelijk.png" alt="">
+                <span>Huwelijk</span>
+              </article>
+            </a>
           </div>
           <div class="col-3">
-            <article class="category-card">
-              <img src="/assets/kids.png" alt="">
-              <span>Kids</span>
-            </article>
+            <a href="">
+              <article class="category-card">
+                <img src="/assets/kids.png" alt="">
+                <span>Kids</span>
+              </article>
+            </a>
           </div>
           <div class="col-3">
-            <article class="category-card">
-              <img src="/assets/cadeaus.png" alt="">
-              <span>Cadeau's</span>
-            </article>
+            <a href="">
+              <article class="category-card">
+                <img src="/assets/cadeaus.png" alt="">
+                <span>Cadeau's</span>
+              </article>
+            </a>
           </div>
           <div class="col-3">
-            <article class="category-card">
-              <img src="/assets/wonen.png" alt="">
-              <span>Wonen</span>
-            </article>
+            <a href="">
+              <article class="category-card">
+                <img src="/assets/wonen.png" alt="">
+                <span>Wonen</span>
+              </article>
+            </a>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto max-w-8xl mt-12 mb-12">
+      <h2 class="text-center h2-primary">
+        Meest bekeken producten
+      </h2>
+      <div class="row flex flex-wrap product-listing">
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-baloons.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-plates-i-guesss.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-letters.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-book.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-eating-tools.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="shipping-benefits">
+      <div class="container justify-between	flex row mx-auto max-w-8xl">
+        <article class="benefits-card">
+          <img src="/assets/tracking.svg" alt="">
+          <div>
+            <h2>USP nummertje één</h2>
+            <h3>Eventueel kort onderbouwd</h3>
+          </div>
+        </article>
+
+        <article class="benefits-card">
+          <img src="/assets/bicycle.svg" alt="">
+          <div>
+            <h2>Nummertje twee</h2>
+            <h3>Hetzelfde verhaal</h3>
+          </div>
+        </article>
+
+        <article class="benefits-card">
+          <img src="/assets/phone.svg" alt="">
+          <div>
+            <h2>En de laatste</h2>
+            <h3>En hier nog een keer</h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container mx-auto max-w-8xl mt-12 mb-12">
+      <h2 class="text-center h2-primary">
+        Door jou laatst bekeken producten
+      </h2>
+      <div class="row flex flex-wrap product-listing">
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-baloons.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-plates-i-guesss.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-letters.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-book.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-2">
+          <article class="product-card">
+            <img src="./assets/product-image-eating-tools.png" alt="">
+            <h3 class="product-card--title">Hier nog een titel van een ander product</h3>
+            <div class="product-card--rating">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star-full.svg" alt="">
+              <img src="/assets/rating-star.svg" alt="">
+              <a href="">
+                <p class="comments">(4) MORGEN IN HUIS</p>
+              </a>
+            </div>
+            <div class="product-card--bottom">
+              <p class="price">3,99</p>
+              <p class="old-price">8,99</p>
+              <a href="">
+                <button>
+                  <img src="./assets/add-to-cart.svg" alt="">
+                </button>
+              </a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    
+  <section id="pre-footer-socials" class="relative">
+    <img src="/assets/pre-footer-bkg.png" alt="">
+    <div id="pre-footer-socials--wrapper">
+      <div class="container mx-auto text-center flex flex-wrap justify-center">
+        <h3 class="mr-12">Volg ons op onze socials</h3>
+        <div class="flex flex-wrap">
+          <img class="mr-3" src="/assets/facebook.svg" alt="">
+          <img src="/assets/instagram.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <section class="footer-container mx-auto">
+      <div class="row flex flex-wrap justify-around pt-10">
+        <article class="col-4">
+          <h1>eidmubarak.eu</h1>
+          <h2>
+            Jouw winkel voor 
+            islamitische feestartikelen
+          </h2>
+          <p>
+            A. van Leeuwenhoekweg 40<br/>
+            Alphen aan de Rijn<br/>
+            Nederland
+          </p>
+        </article>
+
+        <article class="col-4">
+          <h3>Uw account</h3>
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">Persoonlijke informatie</a></li>
+            <li><a href="" class="footer-link">Nog een ding</a></li>
+            <li><a href="" class="footer-link">Wat je maar wil</a></li>
+          </ul>
+        </article>
+
+        <article class="col-4">
+          <h3>Ons bedrijf</h3>
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">Algemene voorwaarden</a></li>
+            <li><a href="" class="footer-link">Nog een ding</a></li>
+            <li><a href="" class="footer-link">Wat je maar wil</a></li>
+          </ul>
+        </article>
+
+        <article class="col-4">
+          <h3>Nieuwsbrief</h3>
+          <ul class="footer-links">
+            <li><a href="" class="footer-link">Ding 1</a></li>
+            <li><a href="" class="footer-link">Nog een ding</a></li>
+            <li><a href="" class="footer-link">Wat je maar wil</a></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="row flex pb-10">
+        <article class="col-12" id="newsletter-article">
+          <form id="newsletter" action="" class="relative">
+            <input type="text" placeholder="E-mailadres">
+            <button type="submit">Aanmelden</button>
+          </form>
+        </article>
+      </div>
+    </section>
   </footer>
   <script src="https://unpkg.com/petite-vue" defer init></script>
 </body>

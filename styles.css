@@ -11,6 +11,10 @@
     --primary-family-font: 'Mulish', sans-serif;
     --secondary-family-font: 'Nunito', sans-serif;
     --tertiary-family-font: 'Inter', sans-serif;
+
+    --extra-color-one: #F09591;
+    --extra-color-two: #32363E;
+    --extra-color-three: #5BBEDD;
 }
 
 .w-100 {
@@ -124,10 +128,15 @@
 }
 
 #hero-bg {
-    margin-bottom: 47px;
+    /* margin-bottom: 47px;
     background: url("./assets/hero-banner.webp");
     height: 443px;
-    background-repeat: round;
+    background-repeat: round; */
+
+    margin-bottom: 47px;
+    background: url(./assets/hero-banner.webp);
+    height: 400px;
+    background-size: cover;
 }
 
 .product-listing {
@@ -138,7 +147,7 @@
 }
 
 #categories-separator {
-    background: #5BBEDD;
+    background: var(--extra-color-three);
     height: 500px;
     display: flex;
     align-items: center;
@@ -151,4 +160,158 @@
     font-weight: 300;
     font-size: 45px;
     margin-bottom: 55px; 
+}
+
+.category-card span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 20px;
+    color: #FFFF;
+    margin-top: 26px;
+}
+
+.category-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#shipping-benefits {
+    background: var(--extra-color-one);
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefits-card h2 {
+    font-family: var(--primary-family-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.benefits-card h3 {
+    font-family: var(--primary-family-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--primary);
+    margin-top: 6px;
+}
+
+.benefits-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.benefits-card img {
+    margin-right: 15px;
+}
+
+#pre-footer-socials--wrapper {
+    position: absolute;
+    top: 4px;
+    width: 100%;
+}
+
+#pre-footer-socials--wrapper h3 {
+    font-family: var(--primary-family-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--extra-color-two);
+}
+
+.footer-container{
+    max-width: 1150px;
+}
+
+#footer {
+    background-color: var(--primary)
+}
+
+#footer h1 {
+    font-family: var(--secondary-family-font);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+#footer h2 {
+    font-family: var(--primary-family-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--extra-color-one);
+    max-width: 250px;
+    margin-bottom: 16px;
+}
+
+#footer p {
+    font-family: var(--secondary-family-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#footer h3 {
+    font-family: var(--primary-family-font);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+
+#footer .footer-link {
+    font-family: var(--tertiary-family-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-links {
+    margin-top: 8px;
+}
+
+#newsletter button {
+    position: absolute;
+    right: 0;
+    width: 146px;
+    height: 42px;
+    background: var(--extra-color-three);
+    border-radius: 0px 3px 3px 0px;
+    color: #fff;
+    font-family: var(--primary-family-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#newsletter input {
+    width: 293px;
+    height: 42px;
+    padding: 10px 157px 10px 12px;
+}
+
+#newsletter-article {
+    margin: 0 auto;
+    margin-right: 0;
 }
