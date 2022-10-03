@@ -132,4 +132,23 @@
 
 .product-listing {
     margin-top: 32px;
+    display: grid;
+    grid-template-columns: 228px 228px 228px 228px 228px;
+    grid-column-gap: 35px;
+}
+
+#categories-separator {
+    background: #5BBEDD;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 66px;
+}
+
+#categories-separator h2 { 
+    font-family: var( --primary-family-font);
+    color: #fff;
+    font-weight: 300;
+    font-size: 45px;
+    margin-bottom: 55px; 
 }
