@@ -151,7 +151,15 @@
     height: 500px;
     display: flex;
     align-items: center;
+    /* margin-top: 66px; */
+}
+
+.mt-66px {
     margin-top: 66px;
+}
+
+.pb-136px {
+    padding-bottom: 136px;
 }
 
 #categories-separator h2 { 
@@ -163,7 +171,7 @@
 }
 
 .category-card span {
-    font-family: 'Mulish';
+    font-family: var(--primary-family-font);
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
