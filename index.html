@@ -12,15 +12,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;700&display=swap&family=Nunito:wght@700;400" rel="stylesheet">
   <script>
-    // tailwind.config = {
-    //   theme: {
-    //     extend: {
-    //       maxWidth: {
-    //         '8xl': '90em',
-    //       },
-    //     }
-    //   }
-    // }
+    tailwind.config = {
+      theme: {
+        extend: {
+          // maxWidth: {
+          //   '8xl': '90em',
+          // },
+          colors: {
+            'primary': "#263250",
+          },
+          fontFamily: {
+            'mulish': "'Mulish', sans-serif",
+            'nunito': "'Nunito', sans-serif",
+            'inter': "'Inter', sans-serif;"
+          }
+        }
+      }
+    }
   </script>
 </head>
 
@@ -30,10 +38,17 @@
   </header>
 
   <main>
-    <section id="hero-bg">
-      <div class="container mx-auto max-w-8xl">
-        <a href=""class="hero--cta">
-          <span>
+    <section class="
+      xl:mb-[47px] xl:h-[400px] xl:bg-cover
+      lg:h-[285px] md:bg-bottom 
+      md:bg-[url('./assets/hero-banner.webp')] md:h-[200px]
+    ">
+      <div class="container mx-auto max-w-8xl relative">
+        <a href="" class="
+          hero--cta
+          lg:absolute lg:top-[24px] lg:left-[375px] lg:items-center lg:content-center lg:flex lg:bg-[#ffffff99] lg:rounded-full lg:h-[245px] lg:w-[245px]
+        ">
+          <span class="font-extrabold text-[30px] leading-[50px] text-center font-nunito text-[primary]">
             Doe nú je inkopen voor Ramadan
           </span>
         </a>

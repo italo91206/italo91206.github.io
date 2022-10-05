@@ -105,26 +105,26 @@
 }
 
 .hero--cta {
-    position: absolute;
-    width: 245px;
-    height: 245px;
-    border-radius: 100%;
-    background: rgb(255 255 255 / 60%);
-    display: flex;
+    /* position: absolute; */
+    /* width: 245px;
+    height: 245px; */
+    /* border-radius: 100%; */
+    /* background: rgb(255 255 255 / 60%); */
+    /* display: flex;
     align-items: center;
-    justify-content: center;
-    left: 375px;
-    top: 24px;
+    justify-content: center; */
+    /* left: 375px;
+    top: 24px; */
 }
 
 .hero--cta span {
-    font-family: var(--secondary-family-font);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 30px;
-    line-height: 50px;
-    text-align: center;
-    color: var(--primary) !important
+    /* font-family: var(--secondary-family-font); */
+    /* font-style: normal; */
+    /* font-weight: 800; */
+    /* font-size: 30px;
+    line-height: 50px; */
+    /* text-align: center; */
+    /* color: var(--primary) !important */
 }
 
 #hero-bg {
@@ -132,11 +132,11 @@
     background: url("./assets/hero-banner.webp");
     height: 443px;
     background-repeat: round; */
-
+/* 
     margin-bottom: 47px;
     background: url(./assets/hero-banner.webp);
     height: 400px;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .product-listing {
