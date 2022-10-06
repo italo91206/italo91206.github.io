@@ -17,114 +17,12 @@
     --extra-color-three: #5BBEDD;
 }
 
-.w-100 {
-    width: 100%;
-}
-
-.h2-primary{
-    font-family: var(--primary-family-font), consolas;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 45px;
-    line-height: 40px;
-    color: var(--primary);
-}
-
-.product-card {
-    width: 228px;
-    height: 332px;
-}
-
-.product-card img {
-    margin: 0 auto;
-}
-
-.product-card--title {
-    font-family: var(--primary-family-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    color: var(--primary);
-    width: 190px;
-    margin: 0 auto 3px;
-}
-
-.product-card--bottom {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    /* justify-content: space-between; */
-    width: 190px;
-    margin: 7px auto 0;
-}
-
-.product-card--bottom .price {
-    font-family: var(--primary-family-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    color: var(--primary);
-}
-
-.product-card--bottom .old-price {
-    font-family: var(--tertiary-family-font);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 20px;
-    text-decoration: line-through;
-    color: var(--primary);
-    margin-left: 13px;
-}
-
-.product-card--bottom button {
-    height: 35px;
-    width: 35px;
-    border-radius: 100%;
-    background: #63D384;
-    margin-left: 76px;
-}
-
-.product-card--rating {
-    display: flex;
-    margin: 0 auto auto 19px;
-    width: 146px;
-}
-
-.product-card .comments {
-    font-family: var(--primary-family-font);
-    font-style: normal;
-    font-weight: 600;
-    font-size: 8px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: var(--primary);
-    margin-left: 5px;
-}
-
-.product-listing {
-    margin-top: 32px;
-    display: grid;
-    grid-template-columns: 228px 228px 228px 228px 228px;
-    grid-column-gap: 35px;
-}
-
 #categories-separator {
     background: var(--extra-color-three);
     height: 500px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     /* margin-top: 66px; */
-}
-
-.mt-66px {
-    margin-top: 66px;
-}
-
-.pb-136px {
-    padding-bottom: 136px;
 }
 
 #categories-separator h2 { 
