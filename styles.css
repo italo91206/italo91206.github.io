@@ -86,21 +86,6 @@
     margin-right: 15px;
 }
 
-#pre-footer-socials--wrapper {
-    position: absolute;
-    top: 4px;
-    width: 100%;
-}
-
-#pre-footer-socials--wrapper h3 {
-    font-family: var(--primary-family-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    color: var(--extra-color-two);
-}
-
 .footer-container{
     max-width: 1150px;
 }
