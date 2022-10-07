@@ -34,8 +34,22 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
+    <section id="language-options" class="h-[35px] bg-[#5BBEDD]">
+      <div class="container">
+        <select name="region" id="">
+          <option value="nederlands" selected>Nederlands</option>
+          <option value="english">English</option>
+        </select>
 
+        <select name="currency" id="">
+          <option value="" selected>EUR €</option>
+          <option value="">USD $</option>
+        </select>
+      </div>
+    </section>
+    <section id="search-and-user-bar"></section>
+    <section id="menu"></section>
   </header>
 
   <main>
@@ -1053,7 +1067,7 @@
     </section>
   </main>
 
-  <section class="relative h-[40px]">
+  <section id="pre-footer" class="relative h-[40px]">
     <img src="/assets/pre-footer-bkg.png" alt="" class="w-full h-full">
     
     <div class="absolute top-[-15px] sm:top-[4px] w-full">
