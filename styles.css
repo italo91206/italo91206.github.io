@@ -49,39 +49,3 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-#shipping-benefits {
-    background: var(--extra-color-one);
-    height: 85px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.benefits-card h2 {
-    font-family: var(--primary-family-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-}
-
-.benefits-card h3 {
-    font-family: var(--primary-family-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    color: var(--primary);
-    margin-top: 6px;
-}
-
-.benefits-card {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.benefits-card img {
-    margin-right: 15px;
-}
