@@ -34,20 +34,21 @@
 </head>
 
 <body>
-  <header id="header">
-    <section id="language-options" class="h-[35px] bg-[#5BBEDD]">
-      <div class="container">
-        <select name="region" id="">
+  <header id="header" class="z-10">
+    <section id="language-options" class="h-[31px] bg-[#5BBEDD]">
+      <div class="container flex pt-[7px] bg-unset text-white font-normal text-[11px] leading-[16px] font-mulish">
+        <select name="region" id="" class="mx-auto mr-[15px] bg-transparent">
           <option value="nederlands" selected>Nederlands</option>
           <option value="english">English</option>
         </select>
 
-        <select name="currency" id="">
+        <select name="currency" id="" class="mx-auto mr-[8px] ml-0 bg-transparent">
           <option value="" selected>EUR €</option>
           <option value="">USD $</option>
         </select>
       </div>
     </section>
+
     <section id="search-and-user-bar" class="
       w-full h-[99px]
       bg-[url('./assets/header-bg.png')]
@@ -96,10 +97,67 @@
         </section>
       </div>
     </section>
-    <section id="menu"></section>
+
+    <section id="menu">
+      <nav class="pt-[35px] pb-[32px] text-center max-w-[1140px] mx-auto">
+        <ul class="font-mulish text-[#263250] leading-[20px] text-[20px] font-bold space-x-8">
+          <li class="inline-block"><a href="">Eten</a></li>
+          <li class="inline-block"><a href="">Ramadan</a></li>
+          <li class="inline-block">
+            <a href="">Eid</a>
+            <div id="submenu-03" class="absolute w-[651px] h-[315px] bg-white rounded-b-[20px] z-10 pt-[38px]">
+              <div id="submenu-oceans-top" class="bg-[url('./assets/submenu-oceans-top.png')] h-[9px]"></div>
+              <div class="row flex flex-wrap h-[31px] pt-[9px] text-left leading-[18px] font-bold font-mulish text-[15px] text-white bg-[#5BBEDD]">
+                <h3 class="w-1/2 pl-[29px]">Shop op tema</h3>
+                <h3 class="w-1/2 pl-[29px]">Shop op product</h3>
+              </div>
+              <div id="submenu-oceans-bottom" class="bg-[url('./assets/submenu-oceans-bottom.png')] h-[15px]"></div>
+
+              <div class="row flex flex-wrap px-[29px] pb-[32px] justify-between">
+                <ul class="w-1/2 max-w-[263px] text-[13px] font-normal leading-[30px] text-left columns-2">
+                  <li><a href="">Marmer Eucalyptus</a></li>
+                  <li><a href="">Peony Blue</a></li>
+                  <li><a href="">Boho Chique</a></li>
+                  <li><a href="">Raibow</a></li>
+                  <li><a href="">Dessert Rose</a></li>
+                  <li><a href="">Peony Blue</a></li>
+                  <li><a href="">Boho Chique</a></li>
+                  <li><a href="">Marmer Eucalyptus</a></li>
+                  <li><a href="">Peony Blue</a></li>
+                  <li><a href="">Boho Chique</a></li>
+                  <li><a href="">Raibow</a></li>
+                  <li><a href="">Dessert Rose</a></li>
+                  <li><a href="">Marmer Eucalyptus</a></li>
+                </ul>
+                <div class="h-[190px] w-[1px] bg-[#5BBEDD] mt-[13px]"></div>
+                <ul class="w-1/2 max-w-[263px] text-[13px] font-normal leading-[30px] text-left columns-2">
+                  <li><a href="">Marmer Eucalyptus</a></li>
+                  <li><a href="">Peony Blue</a></li>
+                  <li><a href="">Boho Chique</a></li>
+                  <li><a href="">Raibow</a></li>
+                  <li><a href="">Dessert Rose</a></li>
+                  <li><a href="">Peony Blue</a></li>
+                  <li><a href="">Boho Chique</a></li>
+                  <li><a href="">Marmer Eucalyptus</a></li>
+                  <li><a href="">Peony Blue</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="inline-block"><a href="">Hajj/Umrah</a></li>
+          <li class="inline-block"><a href="">Huwelijk</a></li>
+          <li class="inline-block"><a href="">Overige</a></li>
+          <li class="inline-block"><a href="">Baby</a></li>
+          <li class="inline-block"><a href="">Kids</a></li>
+          <li class="inline-block"><a href="">Cadeau's</a></li>
+          <li class="inline-block"><a href="">Kaarten</a></li>
+          <li class="inline-block"><a href="">Wonen</a></li>
+        </ul>
+      </nav>
+    </section>
   </header>
 
-  <main>
+  <main class="z-0">
     <section class="
       xl:mb-[47px] xl:h-[400px] xl:bg-cover
       lg:h-[285px] md:bg-bottom 
