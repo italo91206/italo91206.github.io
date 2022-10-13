@@ -50,15 +50,21 @@
     </section>
 
     <section id="search-and-user-bar" class="
-      w-full h-[99px]
-      bg-[url('./assets/header-bg.png')]
-      relative
+      w-full bg-[url('./assets/header-bg.png')] relative h-[60px]
+      sm:h-[99px]
     ">
-      <div class="container flex flex-wrap pt-[22px]">
-        <section id="search-bar" class="mx-auto ml-[371px]">
-          <form action="" class="relative w-[384px]">
-            <input type="text" placeholder="Zoeken" name="" id="" class="w-[384px] h-[42px] py-[12px] pl-[10px] pr-[54px]">
-            <button class="absolute right-[0px] top-[0px] h-[42px] w-[42px] bg-[#5BBEDD] flex items-center justify-center">
+      <div class="container flex flex-wrap h-[60px] justify-center items-center
+        sm:pt-[22px] sm:h-auto
+      ">
+        <section id="menu-mobile" class="block sm:hidden">
+          
+        </section>
+
+        <section id="search-bar" class="mx-auto lg:ml-[371px]">
+          <form action="" class="relative lg:w-[384px]">
+            <input type="text" placeholder="Zoeken" name="" id="" class="hidden lg:block w-[384px] h-[42px] py-[12px] pl-[10px] pr-[54px]">
+            
+            <button class="lg:absolute right-[0px] top-[0px] h-[42px] w-[42px] bg-[#5BBEDD] flex items-center justify-center">
               <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9.23529 17.4706C13.7835 17.4706 17.4706 13.7835 17.4706 9.23529C17.4706 4.68707 13.7835 1 9.23529 1C4.68707 1 1 4.68707 1 9.23529C1 13.7835 4.68707 17.4706 9.23529 17.4706Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M15.0469 15.0471L20.9998 21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -67,7 +73,7 @@
           </form>
         </section>
 
-        <section id="user-actions" class="flex flex-wrap w-[243px] text-[11px] mx-auto mr-0">
+        <section id="user-actions" class="flex flex-wrap sl:w-[243px] text-[11px] mx-auto mr-0">
           <article id="info" class="w-1/3 flex flex-wrap justify-center text-white">
             <button>
               <svg class="w-full" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -99,7 +105,7 @@
     </section>
 
     <section id="menu">
-      <nav class="pt-[35px] pb-[32px] text-center max-w-[1140px] mx-auto">
+      <nav class="hidden lg:block pt-[35px] pb-[32px] text-center max-w-[1140px] mx-auto">
         <ul class="font-mulish text-[#263250] leading-[20px] text-[20px] font-bold">
           <li class="inline-block px-[12px]"><a href="">Eten</a></li>
           <li class="inline-block px-[12px]"><a href="">Ramadan</a></li>
@@ -161,7 +167,8 @@
 
   <main class="z-0">
     <section class="
-      xl:mb-[47px] xl:h-[400px] xl:bg-cover xl:h-[712px]
+      2xl:h-[550px]
+      xl:mb-[47px] xl:h-[400px] xl:bg-cover
       lg:h-[398px] md:bg-center 
       md:h-[200px]
       bg-[url('./assets/hero-banner.webp')] bg-bottom
@@ -1239,7 +1246,7 @@
 
       <div class="row flex pb-[136px]">
         <article class="flex mx-auto lg:mr-[0px]">
-          <form id="newsletter" action="" class="relative w-[293px]">
+          <form id="newsletter" action="" class="relative w-[293px] mr-[10px]">
             <input type="text" class="w-[293px] h-[42px] py-[10px] pr-[157px] pl-[12px]" placeholder="E-mailadres">
             <button type="submit" class="absolute right-[-2px] w-[146px] h-[42px] bg-[#5BBEDD] rounded-r-[3px] text-white font-mulish font-bold leading-[20px] text-[20px]">Aanmelden</button>
           </form>
